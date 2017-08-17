@@ -65,11 +65,7 @@ function unPause() {
 
 function preload() {
     soundFormats('mp3', 'ogg');
-<<<<<<< HEAD
     song = loadSound(song[Math.floor(Math.random() * song.length)]);
-=======
-    song = loadSound(song[Math.floor(Math.random() * 5)]);
->>>>>>> 1315092f9da68c9190621d3d514df5c060134ce5
 }
 
 function setup() {
